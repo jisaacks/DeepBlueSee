@@ -1,0 +1,7 @@
+/ Comment
+.parent
+  .child
+    %h3 
+      Reply to
+      - func = (params) -> console.log(params)
+      = "some string #{func 1}"
