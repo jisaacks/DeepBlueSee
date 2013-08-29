@@ -720,10 +720,31 @@
             "name": "Ruby: Start Block",
             "scope": "keyword.control.start-block.ruby",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#7ad149"
             }
         },
+        {
+            "name": "Ruby: Block Pipes",
+            "scope": "punctuation.separator.variable.ruby",
+            "settings": {
+                "foreground": "#7ad149"
+            }
+        },
+        {
+            "name": "Ruby: Array Brackets And Hash Braces",
+            "scope": "punctuation.section.scope.ruby, punctuation.section.array.ruby",
+            "settings": {
+                "foreground": "#7ad149"
+            }
+        },
+        {
+            "name": "Ruby: Hash Rocket",
+            "scope": "punctuation.separator.key-value ",
+            "settings": {
+                "foreground": "#7ad1d9"
+            }
+        },
+        
         {
             "name": "Ruby: Class",
             "scope": "keyword.control.class.ruby, meta.class.ruby",

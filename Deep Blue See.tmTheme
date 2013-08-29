@@ -1147,10 +1147,41 @@
 			<string>keyword.control.start-block.ruby</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#7ad149</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Block Pipes</string>
+			<key>scope</key>
+			<string>punctuation.separator.variable.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ad149</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Array Brackets And Hash Braces</string>
+			<key>scope</key>
+			<string>punctuation.section.scope.ruby, punctuation.section.array.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ad149</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Hash Rocket</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ad1d9</string>
 			</dict>
 		</dict>
 		<dict>
