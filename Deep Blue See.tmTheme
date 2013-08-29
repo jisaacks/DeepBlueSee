@@ -1351,6 +1351,39 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Coffee: Array Brackets And Hash Braces</string>
+        <key>scope</key>
+        <string>meta.brace.curly.coffee, meta.brace.square.coffee</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7ad149</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Coffee: Punctuation Section</string>
+        <key>scope</key>
+        <string>punctuation.definition.string.begin.coffee, punctuation.section.embedded.coffee, punctuation.definition.string.end.coffee</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d42e64</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Coffee: Instance Var</string>
+        <key>scope</key>
+        <string>variable.other.readwrite.instance.coffee</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#d5d6db</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Markdown: plain</string>
         <key>scope</key>
         <string>text.html.markdown</string>

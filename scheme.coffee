@@ -617,6 +617,23 @@ module.exports =
     settings:
       foreground: $RED
   ,
+
+    #COFFEESCRIPT
+    name: "Coffee: Array Brackets And Hash Braces"
+    scope: "meta.brace.curly.coffee, meta.brace.square.coffee"
+    settings:
+      foreground: $GREEN
+  ,
+    name: "Coffee: Punctuation Section"
+    scope: "punctuation.definition.string.begin.coffee, punctuation.section.embedded.coffee, punctuation.definition.string.end.coffee"
+    settings:
+      foreground: $RED
+  ,
+    name: "Coffee: Instance Var"
+    scope: "variable.other.readwrite.instance.coffee"
+    settings:
+      foreground: $WHITE
+  ,
     
     # MARKDOWN
     name: "Markdown: plain"
