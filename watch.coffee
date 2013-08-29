@@ -13,6 +13,6 @@ fs.watchFile './scheme.coffee', (curr,prev) ->
     defs   = plist.build(scheme).toString()
     fs.writeFile "./Deep\ Blue\ See.tmTheme", defs, (err) ->
       if err
-        console.log "Could node compile: #{err}"
+        console.log "Could not compile: #{err}"
       else
         console.log "Done."
