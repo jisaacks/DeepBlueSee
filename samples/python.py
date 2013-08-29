@@ -9,4 +9,4 @@ class MyClass(object):
 
     @staticmethod
     def some_static_method():
-    	return 5 if True
+        return 5 if True

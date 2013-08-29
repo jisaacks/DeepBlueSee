@@ -1142,6 +1142,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby: Start Block</string>
+			<key>scope</key>
+			<string>keyword.control.start-block.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#7ad149</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby: Class</string>
 			<key>scope</key>
 			<string>keyword.control.class.ruby, meta.class.ruby</string>

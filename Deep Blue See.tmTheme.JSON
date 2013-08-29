@@ -717,6 +717,14 @@
             }
         },
         {
+            "name": "Ruby: Start Block",
+            "scope": "keyword.control.start-block.ruby",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#7ad149"
+            }
+        },
+        {
             "name": "Ruby: Class",
             "scope": "keyword.control.class.ruby, meta.class.ruby",
             "settings": {
