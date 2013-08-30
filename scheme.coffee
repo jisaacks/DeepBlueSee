@@ -6,6 +6,7 @@ $YELLOW  = '#d1d97a'
 $ORANGE  = '#d68b2f'
 $WHITE   = '#d5d6db'
 $BLACK   = '#25262b'
+$DARK    = '#35363b'
 $COMMENT = '#65666b'
 
 module.exports =
@@ -24,17 +25,17 @@ module.exports =
     settings:
       activeGuide:               "#9d550fb0"
       background:                $BLACK
-      bracketContentsForeground: "#f8f8f2a5"
+      bracketContentsForeground: $BLUE
       bracketContentsOptions:    "underline"
-      bracketsForeground:        "#f8f8f2a5"
+      bracketsForeground:        $BLUE
       bracketsOptions:           "underline"
       caret:                     "#f8f8f0"
-      findHighlight:             "#ffe792"
-      findHighlightForeground:   "#000000"
-      foreground:                "#f8f8f2"
+      findHighlight:             $BLUE
+      findHighlightForeground:   $BLACK
+      foreground:                $WHITE
       invisibles:                "#3b3a32"
-      lineHighlight:             "#333333"
-      selection:                 "#35363b"
+      lineHighlight:             $DARK
+      selection:                 $DARK
       selectionBorder:           "#4556ab"
       tagsOptions:               "stippled_underline"
   ,

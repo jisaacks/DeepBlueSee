@@ -33,25 +33,25 @@
           <key>background</key>
           <string>#25262b</string>
           <key>bracketContentsForeground</key>
-          <string>#f8f8f2a5</string>
+          <string>#7ad1d9</string>
           <key>bracketContentsOptions</key>
           <string>underline</string>
           <key>bracketsForeground</key>
-          <string>#f8f8f2a5</string>
+          <string>#7ad1d9</string>
           <key>bracketsOptions</key>
           <string>underline</string>
           <key>caret</key>
           <string>#f8f8f0</string>
           <key>findHighlight</key>
-          <string>#ffe792</string>
+          <string>#7ad1d9</string>
           <key>findHighlightForeground</key>
-          <string>#000000</string>
+          <string>#25262b</string>
           <key>foreground</key>
-          <string>#f8f8f2</string>
+          <string>#d5d6db</string>
           <key>invisibles</key>
           <string>#3b3a32</string>
           <key>lineHighlight</key>
-          <string>#333333</string>
+          <string>#35363b</string>
           <key>selection</key>
           <string>#35363b</string>
           <key>selectionBorder</key>
