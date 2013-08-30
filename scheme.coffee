@@ -1,11 +1,12 @@
-$GREEN  = '#7ad149'
-$RED    = '#d42e64'
-$PURPLE = '#d17ad9'
-$BLUE   = '#7ad1d9'
-$YELLOW = '#d1d97a'
-$ORANGE = '#d68b2f'
-$WHITE  = '#d5d6db'
-$BLACK  = '#25262b'
+$GREEN   = '#7ad149'
+$RED     = '#d42e64'
+$PURPLE  = '#d17ad9'
+$BLUE    = '#7ad1d9'
+$YELLOW  = '#d1d97a'
+$ORANGE  = '#d68b2f'
+$WHITE   = '#d5d6db'
+$BLACK   = '#25262b'
+$COMMENT = '#65666b'
 
 module.exports =
   author:         "github.com/jisaacks"
@@ -40,7 +41,7 @@ module.exports =
     name:         "Comment"
     scope:        "comment"
     settings:
-      foreground: "#65666b"
+      foreground: $COMMENT
   ,
     name:         "String"
     scope:        "string"
@@ -896,6 +897,6 @@ module.exports =
     name:         "ASCII Presentation Terminal Chrome"
     scope:        "ascii_presentation.chrome"
     settings:
-      foreground: "#65666b"
+      foreground: $COMMENT
   ]
   uuid: "d9666eae-207b-415c-876d-cfa40d90fcd4"
