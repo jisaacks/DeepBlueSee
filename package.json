@@ -1,8 +1,0 @@
-{
-  "name": "sublime-color-scheme-compiler",
-  "version": "0.0.1",
-  "dependencies": {
-    "plist": "0.4.3",
-    "coffee-script": "1.4.0"
-  }
-}

@@ -9,24 +9,25 @@ Supports the usual plus:
 
 ### Contributing
 
-Install the node packages
+Install [aroma](https://github.com/jisaacks/Aroma)
 
 ```shell
-$ npm install
+$ npm install -g aroma
 ```
 
-Edit the `scheme.coffee` file to make changes to the color scheme.
+Edit the `Deep Blue See.aroma.coffee` file to make changes to the color scheme.
 
 To compile to `.tmTheme` run:
 
 ```shell
-$ coffee compiler.coffee > "Deep Blue See.tmTheme"
+$ cd DeepBlueSee
+$ aroma -e "tmTheme"
 ```
 
 Optionally you can run:
 
 ```shell
-coffee watch.coffee
+$ aroma -we "tmTheme"
 ```
 
 To have the theme automatically compile as you make changes.
