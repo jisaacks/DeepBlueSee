@@ -17,6 +17,10 @@ Supports the usual plus:
 
 ![screenshot](https://raw.github.com/jisaacks/DeepBlueSee/master/screenshots/ruby.png)
 
+### Installation
+
+[Package Control](https://sublime.wbond.net/packages/Deep%20Blue%20See)
+
 ---
 
 ### Contributing
