@@ -1835,7 +1835,7 @@
         <key>name</key>
         <string>GitGutter deleted</string>
         <key>scope</key>
-        <string>markup.deleted.git_gutter</string>
+        <string>markup.deleted.git_gutter, markup.deleted.git_gutter.staged</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1846,7 +1846,7 @@
         <key>name</key>
         <string>GitGutter inserted</string>
         <key>scope</key>
-        <string>markup.inserted.git_gutter</string>
+        <string>markup.inserted.git_gutter, markup.inserted.git_gutter.staged</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1857,11 +1857,44 @@
         <key>name</key>
         <string>GitGutter changed</string>
         <key>scope</key>
-        <string>markup.changed.git_gutter</string>
+        <string>markup.changed.git_gutter, markup.changed.git_gutter.staged</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
           <string>#d17ad9</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>GitGutter deleted unstaged</string>
+        <key>scope</key>
+        <string>markup.deleted.git_gutter.unstaged</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#565656</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>GitGutter inserted unstaged</string>
+        <key>scope</key>
+        <string>markup.inserted.git_gutter.unstaged</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#565656</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>GitGutter changed unstaged</string>
+        <key>scope</key>
+        <string>markup.changed.git_gutter.unstaged</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#565656</string>
         </dict>
       </dict>
       <dict>

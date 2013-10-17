@@ -836,19 +836,34 @@ module.exports =
     
     # GITGUTTER
     name:         "GitGutter deleted"
-    scope:        "markup.deleted.git_gutter"
+    scope:        "markup.deleted.git_gutter, markup.deleted.git_gutter.staged"
     settings:
       foreground: $RED
   ,
     name:         "GitGutter inserted"
-    scope:        "markup.inserted.git_gutter"
+    scope:        "markup.inserted.git_gutter, markup.inserted.git_gutter.staged"
     settings:
       foreground: $GREEN
   ,
     name:         "GitGutter changed"
-    scope:        "markup.changed.git_gutter"
+    scope:        "markup.changed.git_gutter, markup.changed.git_gutter.staged"
     settings:
       foreground: $PURPLE
+  ,
+    name:         "GitGutter deleted unstaged"
+    scope:        "markup.deleted.git_gutter.unstaged"
+    settings:
+      foreground: "#565656"
+  ,
+    name:         "GitGutter inserted unstaged"
+    scope:        "markup.inserted.git_gutter.unstaged"
+    settings:
+      foreground: "#565656"
+  ,
+    name:         "GitGutter changed unstaged"
+    scope:        "markup.changed.git_gutter.unstaged"
+    settings:
+      foreground: "#565656"
   ,
     name:         "GitGutter ignored"
     scope:        "markup.ignored.git_gutter"
