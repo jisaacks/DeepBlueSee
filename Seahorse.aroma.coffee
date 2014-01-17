@@ -209,7 +209,7 @@ module.exports =
     name:         "HTML: Tags punctuation"
     scope:        "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag"
     settings:
-      foreground: $WHITE
+      foreground: $PURPLE
   ,
     name:         "Handlebars: Variable"
     scope:        "variable.parameter.handlebars"
@@ -541,7 +541,7 @@ module.exports =
     name:         "Ruby: Function"
     scope:        "entity.name.function.ruby"
     settings:
-      foreground: "#d28c47"
+      foreground: $RED
   ,
     name:         "Ruby: Keyword Control"
     scope:        "keyword.control.ruby, keyword.control.def.ruby"
