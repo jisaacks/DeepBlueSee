@@ -9,6 +9,8 @@ Supports the usual plus:
 
 ### Screenshots
 
+#### Deep Blue See
+
 **CoffeeScript:**
 
 ![screenshot](https://raw.github.com/jisaacks/DeepBlueSee/master/screenshots/coffeescript.png)
@@ -16,6 +18,12 @@ Supports the usual plus:
 **Ruby:**
 
 ![screenshot](https://raw.github.com/jisaacks/DeepBlueSee/master/screenshots/ruby.png)
+
+#### Sea Horse
+
+**CoffeeScript:**
+
+![screenshot](https://raw.github.com/jisaacks/DeepBlueSee/master/screenshots/coffeescript-seahorse.png)
 
 ### Installation
 
