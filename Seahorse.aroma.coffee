@@ -1,6 +1,6 @@
 $GREEN   = '#a0f98c'
 $RED     = '#f98ccf'
-$PURPLE  = '#d17ad9'
+$PURPLE  = '#c395f7'
 $BLUE    = '#8cc4f9'
 $YELLOW  = '#f3f98c'
 $ORANGE  = '#f9c78c'
