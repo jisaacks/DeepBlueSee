@@ -480,7 +480,7 @@ module.exports =
     name:         "Python: import"
     scope:        "keyword.control.import.python, keyword.control.import.from.python"
     settings:
-      foreground: "#d42e64dd"
+      foreground: $RED
   ,
     name:         "Python: Support.exception"
     scope:        "support.type.exception.python"
